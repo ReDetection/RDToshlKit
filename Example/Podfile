@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'RDToshlKit', :exclusive => true do
+  pod "RDToshlKit", :path => "../"
+
+  
+end
