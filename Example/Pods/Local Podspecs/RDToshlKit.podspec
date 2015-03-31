@@ -17,19 +17,22 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/ReDetection/RDToshlKit"
+  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RDToshlKit"
+  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "ReDetection" => "redetection@gmail.com" }
-  s.source           = { :git => "https://github.com/ReDetection/RDToshlKit.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/ReDetection'
+  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/RDToshlKit.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
+  s.resource_bundles = {
+    'RDToshlKit' => ['Pod/Assets/*.png']
+  }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'Foundation' #, 'MapKit'
-  s.dependency 'RestKit', '~> 0.23.1'
-  s.dependency 'AFOAuth2Client', '~> 0.1.2'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end

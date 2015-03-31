@@ -1,0 +1,14 @@
+PODS:
+  - RDToshlKit (0.1.0)
+
+DEPENDENCIES:
+  - RDToshlKit (from `../`)
+
+EXTERNAL SOURCES:
+  RDToshlKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RDToshlKit: 4796a1571005745622c7d3679ec30a30350c8fa1
+
+COCOAPODS: 0.33.1
