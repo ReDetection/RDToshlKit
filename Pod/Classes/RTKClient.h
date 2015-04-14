@@ -6,6 +6,7 @@
 
 @class RTKUser;
 @class RTKExpense;
+@class AFOAuthCredential;
 
 @interface RTKClient : NSObject
 
